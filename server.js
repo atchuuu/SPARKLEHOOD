@@ -12,7 +12,7 @@ console.log("Mongo DB Connected...");
 app.use((err, req, res, next) => {
   res.status(500).json({ error: 'Server error' })
 })
-
+console.log("code is uploaded on git @ https://github.com/atchuuu/SPARKLEHOOD")
 const PORT = process.env.PORT || 3000
 console.log("PORT IS RUNNING ON "+PORT);
 app.listen(PORT)
